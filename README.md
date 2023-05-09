@@ -32,3 +32,6 @@ It can be useful for rigging, animation, or any other tasks that involve repetit
 * Maya (tested on version 2023)
 * PyQt5
 * pprint
+
+# Contributing
+This project is open source and contributions are welcome. To contribute, please fork the repository, make your changes, and submit a pull request.
