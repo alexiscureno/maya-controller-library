@@ -4,6 +4,7 @@
 # Controller Library
 
 ## maya-controller-library
+
 The Controller Library is a tool for Maya that allows you to save and load custom controllers. 
 It can be useful for rigging, animation, or any other tasks that involve repetitive creation of controllers.
 
@@ -33,28 +34,19 @@ import importlib
 importlib.reload(libraryui)
 ```
 
-Alternatively, you can create a shelf button in Maya and add the above code to the command field of the button.
-The UI window should now be visible on your screen. To create a new controller, click on the "Create New Controller" button and fill in the details such as the controller name, shape, and color.
-
-Once you have created a controller, it will be added to the library list. You can select a controller from the list and click on the "Add to Scene" button to add it to your Maya scene.
-
-To save your controller library to a file, click on the "Save" button and choose a file location to save the library file.
-
-To load a controller library from a file, click on the "Load" button and choose the library file to load. All controllers in the library will be added to the list.
-
-### Creating a Directory
-
-1. In Maya, run the Python script.
-2. The UI dialog will open, showing a list of available controllers.
-3. To import a controller, select the desired controller from the list and click the "Import" button.
-4. To save a controller, enter a name for the controller in the "Name" field and click the "Save" button.
-5. To refresh the list of available controllers, click the "Refresh" button.
-6. To close the window, click the "Close" button.
+4. Alternatively, you can create a shelf button in Maya and add the above code to the command field of the button.
+6. The UI window should now be visible on your screen, showing a list of available controllers.
+7. To import a controller, select the desired controller from the list and click the "Import" button.
+8. To save a controller, enter a name for the controller in the "Name" field and click the "Save" button.
+9. To refresh the list of available controllers, click the "Refresh" button.
+10. To close the dialog, click the "Close" button. 
 
 # Dependencies
+
 * Maya (tested on version 2023)
 * PyQt5
 * pprint
 
 # Contributing
+
 This project is open source and contributions are welcome. To contribute, please fork the repository, make your changes, and submit a pull request.
