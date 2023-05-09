@@ -19,6 +19,29 @@ It can be useful for rigging, animation, or any other tasks that involve repetit
 
 ## Usage
 
+To use the Controller Library UI, follow these steps:
+
+1. Launch Maya and open the scene you want to work on.
+2. Open the Script Editor by clicking on "Window > General Editors > Script Editor" in the main menu.
+3. In the Script Editor, type the following command:
+
+```
+from conLibrary import libraryui
+
+import importlib
+
+importlib.reload(libraryui)
+```
+
+Alternatively, you can create a shelf button in Maya and add the above code to the command field of the button.
+The UI window should now be visible on your screen. To create a new controller, click on the "Create New Controller" button and fill in the details such as the controller name, shape, and color.
+
+Once you have created a controller, it will be added to the library list. You can select a controller from the list and click on the "Add to Scene" button to add it to your Maya scene.
+
+To save your controller library to a file, click on the "Save" button and choose a file location to save the library file.
+
+To load a controller library from a file, click on the "Load" button and choose the library file to load. All controllers in the library will be added to the list.
+
 ### Creating a Directory
 
 1. In Maya, run the Python script.
